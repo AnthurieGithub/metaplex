@@ -9,5 +9,6 @@ echo "Prestarting 'web'..."
 yarn prestart
 echo "Building 'web'..."
 # TODO: fix linting errors!
+sleep 5
 CI=false && yarn build
 echo "#done"
