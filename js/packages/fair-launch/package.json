@@ -38,12 +38,7 @@
     "deploy:gh": "gh-pages -d ./build/ --repo https://github.com/metaplex-foundation/metaplex -t true --branch gh-pages",
     "deploy": "cross-env ASSET_PREFIX=/metaplex/ yarn build && yarn deploy:gh"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
